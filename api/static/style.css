@@ -124,7 +124,7 @@ section#curriculo h2, section#habilidades h2, section#portifolio h2, section#con
 }
 
 section#inicio {
-    background-image: url(img/banner.jpg);
+    background-image: url(./img/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
