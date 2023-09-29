@@ -298,17 +298,13 @@ section.section-bg {
 
 /* Portifolio */
 
-.carousel-control-prev {
-    margin-left: -50px;
+/* Estilos personalizados para cards escuros no carrossel */
+.carousel-item .card {
+    background-color: #333; /* Cor de fundo escura desejada, por exemplo, preto (#333) */
+    color: #fff; /* Cor do texto desejada, por exemplo, branco (#fff) */
 }
 
-.carousel-control-next {
-    margin-right: -50px;
-}
 
-.carousel-indicators {
-    margin-bottom: -35px;
-}
 
 
 /* Contato */
