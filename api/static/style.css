@@ -304,7 +304,33 @@ section.section-bg {
     color: #fff; /* Cor do texto desejada, por exemplo, branco (#fff) */
 }
 
+.card-text {
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical quando necessário */
+    min-height: 20px; /* Garante que a barra de rolagem funcione dentro da altura máxima do card */
+}
 
+@media (max-width: 1700px) {
+    .carousel-indicators {
+        bottom: -10%;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        bottom: -100%;
+        margin: 0;
+    }
+
+    .carousel-control-prev {
+        left: 35%
+    }
+    
+    .carousel-control-next {
+        right: 35%;
+    }
+
+    [data-anime="right"] {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
 
 
 /* Contato */
@@ -347,19 +373,6 @@ section#contato .borda-escuro {
 }
 
 
-@media (max-width: 1860px){
-    .carousel-control-prev {
-        margin-left: 0;
-    }
-    
-    .carousel-control-next {
-        margin-right: 0;
-    }
-
-    [data-anime = "right"] {
-        transform: translate3d(-100%, 0, 0);
-    }
-}
 
 #btn-enviar-loader {
     display: none;
